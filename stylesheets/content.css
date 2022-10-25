@@ -18,8 +18,8 @@
 @font-face {
     font-family: 'Fantasque Sans Mono' ;
     src: local('Fantasque Sans Mono'),
-    url("../font/fantasquesansmono-regular.woff2") format('woff2'),
-    url("../font/fantasquesansmono-regular.woff") format('woff');
+    url("/stylesheets/font/fantasquesansmono-regular.woff2") format('woff2'),
+    url("/stylesheets/font/fantasquesansmono-regular.woff") format('woff');
     font-style:  normal;
     font-weight: normal;
 }
@@ -44,7 +44,7 @@ h1 {
     font-style: normal;
     font-size: 56px;
     line-height: 57px;
-    color: rebeccapurple;
+    color: red;
     margin-left: 30px;
     margin-top: 40px;
 }
