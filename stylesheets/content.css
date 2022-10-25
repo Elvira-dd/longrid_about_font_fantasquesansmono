@@ -17,19 +17,19 @@
 }
 @font-face {
     font-family: 'Fantasque Sans Mono' ;
-    font-style:  normal;
-    font-weight: normal;
     src: local('Fantasque Sans Mono'),
     url("/stylesheets/font/fantasquesansmono-regular.woff2") format('woff2'),
-    url("/stylesheets/font/fantasquesansmono-regular.woff") format('woff')
+    url("/stylesheets/font/fantasquesansmono-regular.woff") format('woff');
+    font-style:  normal;
+    font-weight: normal;
 }
 @font-face {
     font-family: 'Fantasque Sans Mono' ;
+    src: url(font/fantasquesansmono-italic.woff2) format('woff2'),
+    url(font/fantasquesansmono-italic.woff) format('woff');
     font-style: italic;
     font-weight: normal;
     src: local('Fantasque Sans Mono'),
-    url(font/fantasquesansmono-italic.woff2) format('woff2'),
-    url(font/fantasquesansmono-italic.woff) format('woff');
 }
 body {
     font-family: "Fantasque Sans Mono";
