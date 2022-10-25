@@ -20,16 +20,16 @@
     font-style:  normal;
     font-weight: normal;
     src: local('Fantasque Sans Mono'),
-    url(/font/fantasquesansmono-regular.woff2) format('woff2'),
-    url(/font/fantasquesansmono-regular.woff) format('woff')
+    url(font/fantasquesansmono-regular.woff2) format('woff2'),
+    url(font/fantasquesansmono-regular.woff) format('woff')
 }
 @font-face {
     font-family: 'Fantasque Sans Mono' ;
     font-style: italic;
     font-weight: normal;
     src: local('Fantasque Sans Mono'),
-    url(/font/fantasquesansmono-italic.woff2) format('woff2'),
-    url(/font/fantasquesansmono-italic.woff) format('woff');
+    url(font/fantasquesansmono-italic.woff2) format('woff2'),
+    url(font/fantasquesansmono-italic.woff) format('woff');
 }
 body {
     font-family: "Fantasque Sans Mono";
