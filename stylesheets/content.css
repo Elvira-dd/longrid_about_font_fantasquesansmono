@@ -18,8 +18,8 @@
 @font-face {
     font-family: 'Fantasque Sans Mono' ;
     src: local('Fantasque Sans Mono'),
-    url("/stylesheets/font/fantasquesansmono-regular.woff2") format('woff2'),
-    url("/stylesheets/font/fantasquesansmono-regular.woff") format('woff');
+    url("../font/fantasquesansmono-regular.woff2") format('woff2'),
+    url("../font/fantasquesansmono-regular.woff") format('woff');
     font-style:  normal;
     font-weight: normal;
 }
@@ -40,6 +40,8 @@ body {
 /* Шрифты базовые */
 h1 {
     font-family: 'Fantasque Sans Mono';
+    font-weight: normal;
+    font-style: normal;
     font-size: 56px;
     line-height: 57px;
     color: white;
