@@ -20,8 +20,8 @@
     font-style:  normal;
     font-weight: normal;
     src: local('Fantasque Sans Mono'),
-    url("/font/fantasquesansmono-regular.woff2") format('woff2'),
-    url("font/fantasquesansmono-regular.woff") format('woff')
+    url("/stylesheets/font/fantasquesansmono-regular.woff2") format('woff2'),
+    url("/stylesheets/font/fantasquesansmono-regular.woff") format('woff')
 }
 @font-face {
     font-family: 'Fantasque Sans Mono' ;
