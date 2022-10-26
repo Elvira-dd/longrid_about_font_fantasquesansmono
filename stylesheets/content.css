@@ -4,22 +4,22 @@
     font-style: normal;
     font-weight: bold;
     src: local('Fantasque Sans Mono'),
-    url("/font/fantasquesansmono-bold.woff") format('woff'),
-    url("/font/fantasquesansmono-bold.woff2") format('woff2');
+    url("font/fantasquesansmono-bold.woff") format('woff'),
+    url("font/fantasquesansmono-bold.woff2") format('woff2');
 }
 @font-face {
     font-family: 'Fantasque Sans Mono' ;
     font-style: Italic;
     font-weight: bold;
     src: local('Fantasque Sans Mono'),
-    url("/font/fantasquesansmono-bolditalic.woff2") format('woff2'),
-    url("/font/fantasquesansmono-bolditalic.woff") format('woff');
+    url("font/fantasquesansmono-bolditalic.woff2") format('woff2'),
+    url("font/fantasquesansmono-bolditalic.woff") format('woff');
 }
 @font-face {
     font-family: 'Fantasque Sans Mono' ;
     src: local('Fantasque Sans Mono'),
-    url("/stylesheets/font/fantasquesansmono-regular.woff2") format('woff2'),
-    url("/stylesheets/font/fantasquesansmono-regular.woff") format('woff');
+    url("font/fantasquesansmono-regular.woff2") format('woff2'),
+    url("font/fantasquesansmono-regular.woff") format('woff');
     font-style:  normal;
     font-weight: normal;
 }
@@ -34,6 +34,7 @@
 body {
     font-family: "Fantasque Sans Mono";
     width: 1440px;
+    height: 10694px;
     margin: 0 auto;
     background-color: #1E2021;
 }
@@ -57,6 +58,15 @@ h2 {
     color: white;
     margin-left: 30px;
     margin-top: 40px;
+}
+h3 {
+    font-family: 'Fantasque Sans Mono';
+    font-weight: bold;
+    font-style: normal;
+    font-size: 48px;
+    line-height: 49px;
+    color:white;
+    margin-top: 26px;
 }
 h4 {
     font-size: 24px;
@@ -126,6 +136,14 @@ hr {
 }
 .icon_img {
     height: 117px;
+}
+.AI_window {
+    position: absolute;
+    background-color: #424242;
+    border-radius: 5px;
+    width: 225px;
+    height: 268px;
+    z-index: 20000;
 }
 /* Первая секция  */
 .first {
@@ -341,7 +359,7 @@ hr {
 .fourthS {
     position: relative;
     width: 100%;
-    height: 3600px;
+    height: 3615px;
 }
 .fourthS_bg {
     position: absolute;
@@ -402,7 +420,7 @@ hr {
 .fourthS_element_3 {
     position: absolute;
     background-color: #424242;
-    width: 759px;
+    width: 420px;
     height: 430px;
     margin-left: 1000px;
     margin-top: 1000px;
@@ -453,9 +471,156 @@ hr {
     width: 100%;
     position: relative;
     height: 268px;
+    z-index: 2000;
+    overflow: hidden;
 }
 .fifthS_error_1 {
-    display: block;
+    display: flex;
     height: 102px;
+    width: 140%;
+    background-color: #960808;
+    justify-content: space-around;
+    margin-left: -100px;
+}
+/* Секция 6 */
+.sixthS {
+    position: relative;
     width: 100%;
+    height: 950px;
+}
+.sixthS_AI_explane {
+    position: absolute;
+    background-color: #424242;
+    width: 546px;
+    height: 265px;
+    margin-left: 285px;
+    margin-top: 200px;
+    z-index: 200;
+}
+.sixthS_bg_window {
+    position: absolute;
+    background-color: #424242;
+    width: 1060px;
+    height: 340px;
+    margin-left: 80px;
+    margin-top: 490px;
+    z-index: 200;
+    opacity: 0.7;
+}
+.sixthS_AI_glyps {
+    position: absolute;
+    background-color: #424242;
+    width: 742px;
+    height: 248px;
+    margin-left: 165px;
+    margin-top: 620px;
+    z-index: 700;
+}
+.sixthS_image_icon {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 1170px;
+}
+/* Секция 7 */
+.seventhS {
+    position: relative;
+    width: 100%;
+    height: 1573px;
+}
+.seventhS_glyps {
+    position: absolute;
+    background-color: #424242;
+    width: 870px;
+    height: 663px;
+    margin-left: 80px;
+    margin-top: 80px;
+    z-index: 100;
+}
+.seventhS_font {
+    position: absolute;
+    background-color: #424242;
+    width: 628px;
+    height: 268px;
+    margin-left:680px;
+    margin-top: 465px;
+    z-index: 500;
+}
+.seventhS_AI_language {
+    position: absolute;
+    background-color: #424242;
+    width: 640px;
+    height: 220px;
+    margin-left: 340px;
+    margin-top: 1040px;
+    z-index: 100;
+}
+.seventhS_language {
+    position: absolute;
+    background-color: #424242;
+    width: 475px;
+    height: 300px;
+    margin-left: 945px;
+    margin-top: 1090px;
+    z-index: 10;
+    overflow: hidden;
+}
+/* 8 секция  */
+.eightS {
+    height: 740px;
+    position: relative;
+    width: 100%;
+}
+.eightS_glyphs {
+    position: absolute;
+    background-color: #424242;
+    height: 645px;
+    width: 1280px;
+    margin-left: 80px;
+    margin-top: 50px;
+}
+/* Секция 9 */
+.ninethS {
+    position: relative;
+    width: 100%;
+    height: 760px;
+}
+.ninethS_bye {
+    position: absolute;
+    background-color: #424242;
+    width: 643px;
+    height: 274px;
+    margin-left: 420px;
+    margin-top: 175px;
+    z-index: 1000;
+}
+.ninethS_code {
+    position: absolute;
+    background-color: #424242;
+    width: 720px;
+    height: 274px;
+    margin-left: 720px;
+    margin-top: 420px;
+    z-index: 500;
+    overflow: hidden;
+}
+/* Подвал  */
+.footer {
+    position: relative;
+    background-color: #424242;
+    width: 100%;
+    height: 274px;
+    
+}
+.footer_inf {
+    width: 660px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.footer_flex {
+    width: 1400px;
+    display: flex;
+    justify-content: space-between;
 }
