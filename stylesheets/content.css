@@ -48,6 +48,16 @@ h1 {
     margin-left: 30px;
     margin-top: 40px;
 }
+h2 {
+    font-family: 'Fantasque Sans Mono';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 100px;
+    line-height: 102px;
+    color: white;
+    margin-left: 30px;
+    margin-top: 40px;
+}
 h4 {
     font-size: 24px;
     font-weight: normal ;
@@ -360,4 +370,92 @@ hr {
     background-color: #424242;
     border-radius: 5px;
     overflow: hidden;
+}
+.fourthS_explane {
+    position: absolute;
+    background-color: #424242;
+    width: 642px;
+    height: 285px;
+    margin-left: 167px;
+    margin-top: 365px;
+    z-index: 1000;
+}
+.fourthS_bg_AI_voice {
+    position: absolute;
+    background-color: #424242;
+    width: 1280px;
+    height: 834px;
+    margin-left: 80px;
+    margin-top: 690px;
+    z-index: 0;
+    opacity: 0.7;
+}
+.fourthS_element_1 {
+    position: absolute;
+    background-color: #424242;
+    width: 759px;
+    height: 301px;
+    margin-left: 265px;
+    margin-top: 775px;
+    z-index: 1000;
+}
+.fourthS_element_3 {
+    position: absolute;
+    background-color: #424242;
+    width: 759px;
+    height: 430px;
+    margin-left: 1000px;
+    margin-top: 1000px;
+    z-index: 700;
+    overflow: hidden;
+}
+.fourthS_element_2 {
+    position: absolute;
+    background-color: #424242;
+    width: 460px;
+    height: 215px;
+    margin-left: 700px;
+    margin-top: 1260px;
+    z-index: 1700;
+    overflow: hidden;
+}
+.fourthS_element_4 {
+    position: absolute;
+    background-color: #424242;
+    width: 1034px;
+    height: 430px;
+    margin-left: 200px;
+    margin-top: 1455px;
+    z-index: 1000;
+    overflow: hidden;
+}
+.fourthS_loading_window {
+    position: absolute;
+    background-color: #424242;
+    width: 759px;
+    height: 1047px;
+    margin-left: 80px;
+    margin-top: 1790px;
+    z-index: 10;
+    opacity: 0.7;
+}
+.fourthS_element_5 {
+    position: absolute;
+    background-color: #424242;
+    width: 642px;
+    height: 250px;
+    margin-left: 700px;
+    margin-top: 2100px;
+    z-index: 700;
+}
+/* Секция 5.  Блок с предупреждением */
+.fifthS {
+    width: 100%;
+    position: relative;
+    height: 268px;
+}
+.fifthS_error_1 {
+    display: block;
+    height: 102px;
+    width: 100%;
 }
