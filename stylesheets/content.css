@@ -353,6 +353,7 @@ hr {
     background-color: #424242;
     border-radius: 5px;
     margin-left: 955px;
+    border-radius: 5px;
     overflow: hidden;
 }
 /* Четвертая секция   */
@@ -380,6 +381,7 @@ hr {
     margin-left: 100px;
     margin-top: 140px;
     z-index: 1000;
+    border-radius: 5px;
 }
 .fourthS_features {
     position: absolute;
@@ -388,6 +390,7 @@ hr {
     background-color: #424242;
     border-radius: 5px;
     overflow: hidden;
+    border-radius: 5px;
 }
 .fourthS_explane {
     position: absolute;
@@ -397,6 +400,7 @@ hr {
     margin-left: 167px;
     margin-top: 365px;
     z-index: 1000;
+    border-radius: 5px;
 }
 .fourthS_bg_AI_voice {
     position: absolute;
@@ -407,6 +411,7 @@ hr {
     margin-top: 690px;
     z-index: 0;
     opacity: 0.7;
+    border-radius: 5px;
 }
 .fourthS_element_1 {
     position: absolute;
@@ -416,6 +421,7 @@ hr {
     margin-left: 265px;
     margin-top: 775px;
     z-index: 1000;
+    border-radius: 5px;
 }
 .fourthS_element_3 {
     position: absolute;
@@ -426,6 +432,7 @@ hr {
     margin-top: 1000px;
     z-index: 700;
     overflow: hidden;
+    border-radius: 5px;
 }
 .fourthS_element_2 {
     position: absolute;
@@ -436,6 +443,7 @@ hr {
     margin-top: 1260px;
     z-index: 1700;
     overflow: hidden;
+    border-radius: 5px;
 }
 .fourthS_element_4 {
     position: absolute;
@@ -446,6 +454,7 @@ hr {
     margin-top: 1455px;
     z-index: 1000;
     overflow: hidden;
+    border-radius: 5px;
 }
 .fourthS_loading_window {
     position: absolute;
@@ -454,6 +463,7 @@ hr {
     height: 1047px;
     margin-left: 80px;
     margin-top: 1790px;
+    border-radius: 5px;
     z-index: 10;
     opacity: 0.7;
 }
@@ -465,6 +475,7 @@ hr {
     margin-left: 700px;
     margin-top: 2100px;
     z-index: 700;
+    border-radius: 5px;
 }
 /* Секция 5.  Блок с предупреждением */
 .fifthS {
@@ -496,6 +507,7 @@ hr {
     margin-left: 285px;
     margin-top: 200px;
     z-index: 200;
+    border-radius: 5px;
 }
 .sixthS_bg_window {
     position: absolute;
@@ -505,6 +517,7 @@ hr {
     margin-left: 80px;
     margin-top: 490px;
     z-index: 200;
+    border-radius: 5px;
     opacity: 0.7;
 }
 .sixthS_AI_glyps {
@@ -515,6 +528,7 @@ hr {
     margin-left: 165px;
     margin-top: 620px;
     z-index: 700;
+    border-radius: 5px;
 }
 .sixthS_image_icon {
     position: absolute;
@@ -537,6 +551,7 @@ hr {
     margin-left: 80px;
     margin-top: 80px;
     z-index: 100;
+    border-radius: 5px;
 }
 .seventhS_font {
     position: absolute;
@@ -546,6 +561,7 @@ hr {
     margin-left:680px;
     margin-top: 465px;
     z-index: 500;
+    border-radius: 5px;
 }
 .seventhS_AI_language {
     position: absolute;
@@ -555,6 +571,7 @@ hr {
     margin-left: 340px;
     margin-top: 1040px;
     z-index: 100;
+    border-radius: 5px;
 }
 .seventhS_language {
     position: absolute;
@@ -565,6 +582,7 @@ hr {
     margin-top: 1090px;
     z-index: 10;
     overflow: hidden;
+    border-radius: 5px;
 }
 /* 8 секция  */
 .eightS {
@@ -579,6 +597,7 @@ hr {
     width: 1280px;
     margin-left: 80px;
     margin-top: 50px;
+    border-radius: 5px;
 }
 /* Секция 9 */
 .ninethS {
@@ -594,6 +613,7 @@ hr {
     margin-left: 420px;
     margin-top: 175px;
     z-index: 1000;
+    border-radius: 5px;
 }
 .ninethS_code {
     position: absolute;
@@ -604,6 +624,7 @@ hr {
     margin-top: 420px;
     z-index: 500;
     overflow: hidden;
+    border-radius: 5px;
 }
 /* Подвал  */
 .footer {
@@ -611,7 +632,7 @@ hr {
     background-color: #424242;
     width: 100%;
     height: 274px;
-    
+    border-radius: 5px;
 }
 .footer_inf {
     width: 660px;
